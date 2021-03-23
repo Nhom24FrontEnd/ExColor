@@ -27,7 +27,7 @@ Version:1.0
 15. Newslatter CSS
 16. About Us CSS
 17. Team CSS
-18. Blog CSS	
+18. Blog CSS
 	+ Blog Archive
 	+ Blog Sidebar
 	+ Blog Single
@@ -100,54 +100,54 @@ Version:1.0
 	box-shadow: -4px 0px 5px #00000036;
 }
 .get-pro:hover{
-	
+
 }
 /* Preloader */
 .preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999999999;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999999;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	overflow: hidden;
 }
 .preloader-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
 .preloader-icon {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  padding: 0px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	padding: 0px;
 }
 .preloader-icon span {
-  position: absolute;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background:#F7941D;
-  -webkit-animation: preloader-fx 1.6s linear infinite;
-  animation: preloader-fx 1.6s linear infinite;
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background:#F7941D;
+	-webkit-animation: preloader-fx 1.6s linear infinite;
+	animation: preloader-fx 1.6s linear infinite;
 }
 .preloader-icon span:last-child {
-  animation-delay: -0.8s;
-  -webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+	-webkit-animation-delay: -0.8s;
 }
 @keyframes preloader-fx {
-  0% {transform: scale(0, 0); opacity:0.5;}
-  100% {transform: scale(1, 1); opacity:0;}
+	0% {transform: scale(0, 0); opacity:0.5;}
+	100% {transform: scale(1, 1); opacity:0;}
 }
 @-webkit-keyframes preloader-fx {
-  0% {-webkit-transform: scale(0, 0); opacity:0.5;}
-  100% {-webkit-transform: scale(1, 1); opacity:0;}
+	0% {-webkit-transform: scale(0, 0); opacity:0.5;}
+	100% {-webkit-transform: scale(1, 1); opacity:0;}
 }
 /* End Preloader */
 
@@ -179,15 +179,15 @@ Version:1.0
 }
 #scrollUp i{
 	height: 40px;
-    width: 40px;
-    line-height: 40px;
+	width: 40px;
+	line-height: 40px;
 	background:transparent;
-    background:#222;
-    border-radius: 0;
+	background:#222;
+	border-radius: 0;
 	font-size: 18px;
 	-webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
 	display:block;
 	color: #fff;
 	box-shadow: 0px 4px 19px #00000038;
@@ -287,23 +287,23 @@ Version:1.0
 }
 .header .nav li .dropdown.sub-dropdown {
 	background: #fff;
-    width: 220px;
-    position: absolute;
-    left: 186px;
-    top: 0;
-    z-index: 999;
-   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	width: 220px;
+	position: absolute;
+	left: 186px;
+	top: 0;
+	z-index: 999;
+	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 3px 5px #3333334d;
-    transform-origin: 0 0 0;
-    transform: scaleY(0.2);
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    opacity: 0;
-    visibility: hidden;
-    padding: 10px;
+	transform-origin: 0 0 0;
+	transform: scaleY(0.2);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	opacity: 0;
+	visibility: hidden;
+	padding: 10px;
 }
 .header .nav li .dropdown li:hover .dropdown.sub-dropdown{
 	opacity:1;
@@ -353,7 +353,7 @@ Version:1.0
 }
 /* Topbar Left Nav */
 .header.shop .left-nav{
-	
+
 }
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
@@ -465,7 +465,7 @@ Version:1.0
 }
 .header .shopping .dropdown-cart-header{
 	padding-bottom: 10px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 	border-bottom:1px solid #e6e6e6;
 }
 .header .shopping .dropdown-cart-header span {
@@ -520,14 +520,14 @@ Version:1.0
 	width: 70px;
 	height: 70px;
 	border-radius:0;
-	
+
 }
 .header .shopping-list .cart-img:hover img{
 	transform:scale(1.09);
 }
 .header .shopping-list .quantity{
 	line-height: 22px;
-    font-size: 13px;
+	font-size: 13px;
 	padding-bottom: 30px;
 }
 .header .shopping-list h4 {
@@ -547,7 +547,7 @@ Version:1.0
 .header .shopping-item .total {
 	overflow:hidden;
 	display: block;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 .header .shopping-item .total span {
 	text-transform:uppercase;
@@ -719,7 +719,7 @@ Version:1.0
 	border:none;
 }
 .header.shop .header-inner {
-	background: #333;
+	background: #fff;
 }
 .header.shop.v3 .header-inner {
 	background: transparent;
@@ -918,7 +918,7 @@ Version:1.0
 	color:#333;
 }
 .header.shop .nav li a {
-	color: #fff;
+	color: #f7941d;
 	text-transform: capitalize;
 	font-size: 15px;
 	padding: 20px 15px;
@@ -1121,7 +1121,7 @@ Version:1.0
 .header.sticky .all-category{}
 .header.sticky .all-category h3{
 	cursor:pointer;
-	
+
 }
 .header.sticky .all-category .main-category{
 	opacity:0;
@@ -1184,7 +1184,7 @@ Version:1.0
 
 /*======================================
    Hero Area CSS
-========================================*/ 
+========================================*/
 .hero-slider {
 	background: #fff;
 	overflow: hidden;
@@ -1195,10 +1195,10 @@ Version:1.0
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 510px;
+	height: 510px;
 }
 .hero-slider .text-inner {
-	
+
 }
 .hero-slider .hero-text {
 	padding: 0 30px;
@@ -1315,9 +1315,9 @@ Version:1.0
 /* Owl Nav CSS */
 .hero-area2 .owl-carousel .owl-nav {
 	margin: 0;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+	position: absolute;
+	top: 50%;
+	width: 100%;
 	margin-top:-30px;
 }
 .hero-area2 .owl-carousel .owl-nav div {
@@ -1353,7 +1353,7 @@ Version:1.0
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 511px;
+	height: 511px;
 	margin-top:30px;
 	position:relative;
 }
@@ -1431,11 +1431,11 @@ Version:1.0
 }
 /* Hero Area 4 */
 .hero-area4 .big-content{
-	
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 510px;
+	height: 510px;
 	margin-top:30px;
 	position:relative;
 }
@@ -1466,9 +1466,9 @@ Version:1.0
 }
 .hero-area4 .owl-carousel .owl-nav {
 	margin: 0;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+	position: absolute;
+	top: 50%;
+	width: 100%;
 	margin-top:-20px;
 }
 .hero-area4 .owl-carousel .owl-nav div {
@@ -1500,11 +1500,11 @@ Version:1.0
 
 /*======================================
    End Hero Area CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Small Banner CSS
-========================================*/ 
+========================================*/
 .small-banner{
 	padding:30px 0;
 	padding-bottom:0;
@@ -1559,11 +1559,11 @@ Version:1.0
 }
 /*======================================
    End Small Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Mid Banner CSS
-========================================*/ 
+========================================*/
 .midium-banner{
 	padding:0;
 }
@@ -1625,7 +1625,7 @@ Version:1.0
 }
 /*======================================
    End Mid Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Most Popular CSS
@@ -1638,9 +1638,9 @@ Version:1.0
 	margin-bottom:40px;
 }
 .pro-tab-viewmore-wrap .pro-viewmore {
-  position: absolute;
-  right: 40px;
-  top: 0;
+	position: absolute;
+	right: 40px;
+	top: 0;
 }
 .most-popular .single-product{
 	margin:50px 15px 0 15px;
@@ -1648,9 +1648,9 @@ Version:1.0
 /* Slider Nav */
 .most-popular .owl-nav{
 	margin: 0;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+	position: absolute;
+	top: 50%;
+	width: 100%;
 	margin-top:-25px;
 }
 .most-popular .owl-carousel .owl-nav div {
@@ -1711,7 +1711,7 @@ Version:1.0
 }
 .product-area .nav-tabs li:last-child a{
 	border-color:transparent;
-} 
+}
 .product-area .nav-tabs li a i{
 	margin-right:10px;
 }
@@ -1726,24 +1726,24 @@ Version:1.0
 	margin-top:50px;
 }
 .single-product .product-img {
-  position: relative;
-  overflow: hidden;
-  cursor:pointer;
+	position: relative;
+	overflow: hidden;
+	cursor:pointer;
 }
 .single-product .product-img a {
-  display: block;
-  position: relative;
+	display: block;
+	position: relative;
 }
 .single-product .product-img a img {
-  width: 100%;
+	width: 100%;
 }
 .single-product .product-img a img.hover-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
 }
 .single-product .product-img a span.price-dec {
 	background-color: #f6931d;
@@ -1821,7 +1821,7 @@ Version:1.0
 	border:none;
 }
 .single-product .product-img .product-action a i {
-  line-height: 40px;
+	line-height: 40px;
 }
 .single-product .product-img .product-action a span {
 	visibility: hidden;
@@ -1859,22 +1859,22 @@ Version:1.0
 	color:#F7941D;
 }
 .single-product .product-img .product-action a:hover span {
-  visibility: visible;
-  opacity: 1;
-  color:#333;
-  background:#fff;
-  margin-top: -12px;
+	visibility: visible;
+	opacity: 1;
+	color:#333;
+	background:#fff;
+	margin-top: -12px;
 }
 .single-product .product-img .product-action.pro-action-width-dec a {
-  width: 30px;
-  height: 30px;
-  font-size: 14px;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
 }
 .single-product .product-img .product-action.pro-action-width-dec a i {
-  line-height: 30px;
+	line-height: 30px;
 }
 .single-product .product-img .product-action.pro-action-width-dec-2 {
-  bottom: 45px;
+	bottom: 45px;
 }
 .single-product .product-img .product-action-2 {
 	position: absolute;
@@ -1898,7 +1898,7 @@ Version:1.0
 	display: inline-block;
 }
 .single-product .product-img .product-action-2 a:hover {
-  color:#F7941D;
+	color:#F7941D;
 }
 .single-product .button-head {
 	background: #fff;
@@ -1919,64 +1919,64 @@ Version:1.0
 	bottom:0;
 }
 .single-product .product-img .shop-list-quickview {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 99;
-  margin-top: 20px;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: all .35s ease 0s;
-  -o-transition: all .35s ease 0s;
-  transition: all .35s ease 0s;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 99;
+	margin-top: 20px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .35s ease 0s;
+	-o-transition: all .35s ease 0s;
+	transition: all .35s ease 0s;
 }
 .single-product .product-img .shop-list-quickview a {
-  color: #000;
-  background-color: #fff;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  font-size: 18px;
+	color: #000;
+	background-color: #fff;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	font-size: 18px;
 }
 .single-product .product-img .shop-list-quickview a:hover {
-  background-color: #222;
-  color: #fff;
+	background-color: #222;
+	color: #fff;
 }
 .single-product .product-img .shop-list-quickview a i {
-  line-height: 50px;
+	line-height: 50px;
 }
 .single-product .product-content{
 	margin-top:20px;
 }
 .single-product .product-img:hover.default-overlay::before {
-  background-color: rgba(38, 38, 38, 0.2);
-  z-index: 9;
-  -webkit-transition: all 250ms ease-out;
-  -o-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
-  pointer-events: none;
-  opacity: 1;
+	background-color: rgba(38, 38, 38, 0.2);
+	z-index: 9;
+	-webkit-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	pointer-events: none;
+	opacity: 1;
 }
 .single-product .product-img:hover.default-overlay.metro-overlay::before {
-  background-color: rgba(38, 38, 38, 0.4);
-  z-index: 9;
-  -webkit-transition: all 250ms ease-out;
-  -o-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
-  pointer-events: none;
-  opacity: 1;
+	background-color: rgba(38, 38, 38, 0.4);
+	z-index: 9;
+	-webkit-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	pointer-events: none;
+	opacity: 1;
 }
 .single-product .product-img:hover img.hover-img {
-  opacity: 1;
+	opacity: 1;
 }
 .single-product .product-content h3 {
-    line-height: 22px;
+	line-height: 22px;
 }
 .single-product .product-content h3 a {
 	font-size: 14px;
@@ -1987,16 +1987,16 @@ Version:1.0
 	color:#F7941D;
 }
 .single-product .product-content .product-price {
-  margin: 6px 0 0 0;
+	margin: 6px 0 0 0;
 }
 .single-product .product-content .product-price span {
 	font-size: 15px;
 	font-weight: 500;
 }
 .single-product .product-content .product-price span.old {
-  text-decoration: line-through;
-  opacity: .6;
-  margin-right: 2px;
+	text-decoration: line-through;
+	opacity: .6;
+	margin-right: 2px;
 }
 /*======================================
    End Single Product CSS
@@ -2102,7 +2102,7 @@ Version:1.0
 	margin-top: 10px;
 }
 .shop-sidebar .categor-list li{
-	
+
 }
 .shop-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -2124,7 +2124,7 @@ Version:1.0
 .shop-sidebar .single-post {
 	position: relative;
 	margin-top: 30px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 	border-bottom: 1px solid #ddd;
 }
 .shop-sidebar .single-post.first{
@@ -2573,7 +2573,7 @@ Version:1.0
 	border-color:transparent;
 }
 .shop.single .tab-single {
-	
+
 }
 .shop.single .single-des {
 	margin-top:35px;
@@ -2582,7 +2582,7 @@ Version:1.0
 	margin-bottom:15px;
 	font-weight:500;
 	font-size:22px;
-	
+
 }
 .shop.single .single-des ul{}
 .shop.single .single-des ul li {
@@ -2951,7 +2951,7 @@ Version:1.0
 	transform:rotate(360deg);
 }
 .shopping-cart .border{
-	
+
 }
 .shopping-cart .table .remove-icon{
 	font-size:16px;
@@ -3108,7 +3108,7 @@ Version:1.0
 	padding-left: 100px;
 }
 .shopping-cart .total-amount .right ul{
-	
+
 }
 .shopping-cart .total-amount .right ul li {
 	font-size: 15px;
@@ -3194,7 +3194,7 @@ Version:1.0
 	background: #F6F7FB;
 }
 .shop.checkout .form .form-group input:hover{
-	
+
 }
 .shop.checkout .nice-select {
 	width: 100%;
@@ -3683,7 +3683,7 @@ Version:1.0
 	margin-top:40px;
 	width: 80px;
 	display:inline-block;
-	
+
 }
 .cown-down .content .cdown {
 	text-align: center;
@@ -3942,7 +3942,7 @@ Version:1.0
 .about-us .about-img img{
 	height:100%;
 	width:100%;
-	
+
 }
 /*=============================
 	End About US CSS
@@ -3950,7 +3950,7 @@ Version:1.0
 
 /*======================================
   10. Start Team CSS
-========================================*/  
+========================================*/
 .team{
 	background:#F6F7FB;
 }
@@ -3961,8 +3961,8 @@ Version:1.0
 	margin-top: 30px;
 	position:relative;
 	-webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
 	display: inline-block;
 	overflow:hidden;
 	text-align:center;
@@ -3992,8 +3992,8 @@ Version:1.0
 }
 .team .single-team .social-links {
 	-webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
 	margin-top:15px;
 }
 .team .single-team .social-links .social li{
@@ -4013,7 +4013,7 @@ Version:1.0
 }
 /*======================================
   End Team CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Shop Blog CSS
@@ -4158,7 +4158,7 @@ Version:1.0
 	margin-top: 15px;
 }
 .main-sidebar .categor-list li{
-	
+
 }
 .main-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -4204,7 +4204,7 @@ Version:1.0
 	border:none;
 }
 .main-sidebar .single-post .image {
-	
+
 }
 .main-sidebar .single-post .image img{
 	float: left;
@@ -4272,7 +4272,7 @@ Version:1.0
 }
 /* Blog Newslatter CSS */
 .main-sidebar .newsletter{
-	
+
 }
 .main-sidebar .newsletter .letter-inner {
 	position:relative;
@@ -4471,7 +4471,7 @@ Version:1.0
 	background:#F7941D;
 }
 .blog-single .comments{
-	
+
 }
 .blog-single .comments .single-comment {
 	position: relative;
@@ -4490,7 +4490,7 @@ Version:1.0
 	left: 0;
 }
 .blog-single .single-comment .content {
-	
+
 }
 .blog-single .single-comment .content h4 {
 	color: #333;
@@ -4900,7 +4900,7 @@ Version:1.0
 }
 /* Copyright */
 .footer .copyright{
-	
+
 }
 .footer .copyright .inner{
 	border-top:1px solid #eeeeee3d;
